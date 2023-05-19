@@ -1,0 +1,34 @@
+.disp{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.videos{
+    width: 30vmax;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 10px; 
+    transition: all 0.5s;
+    margin-bottom: 20px; 
+}
+
+.videos a{
+    text-decoration: none;
+    font-size: large;
+}
+.videos a:hover{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: orangered;
+}
+.videos:hover{
+    box-shadow: 0px 6px 15px rgba(53,53,53,0.365);
+     transform: translateY(-0.4vmax);
+}
+
