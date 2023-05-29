@@ -29,7 +29,7 @@ function App() {
      <Videos/>
      <Heading text = "IN THE PRESS"/>
      <Banner end = {data.banner.end}/>
-     {/* <Footer/> */}
+     <Footer footer = {data.footer} />
      </Router> 
   );
 }
